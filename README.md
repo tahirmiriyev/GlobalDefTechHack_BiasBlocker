@@ -17,3 +17,13 @@ Only this way, we will be able to eliminate any bias and stop propaganda. For th
 - Demographics: besides international users, customers will be private entities ( companies interested in propaganda against their brands) and governments (interested in tracking biased news directed towards anti-government propaganda). 
 - Subscription-based model: Our final product for this hackathon will act as a Free Version. The ultimate product will be a Pro Version and include the following advancements: more advanced semantic analysis tools, more conflicting sides, more languages (Russian, French, etc.) 
 
+## Workflow 
+The entire workflow is described below. 
+### Natural Language Processing
+We begin by parsing all kinds of data from the current news article (ex: "Nagorno-Karabakh truce in jeopardy as accusations of violations fly" from The Guardian). We use NEWSPAPER Python library to extract the content, images and videos. At this point, on our database we have 6000+ news articles extracted from top 14 Azerbaijani and Armenian news portals. However, this data is not simply stored there, we apply K-means Clusterising (a Machine Learning model) to cluster news into categories. Then the keywords list for each category is defined and current news article is compared to those keywords through a rigorous RELEVANCE FUNCTION that we have written. The working principle of this function is based on assigning weights to nouns (e.g. missile, civilians, bombs), verbs (e.g. attack, liberate) and proper names (e.g. Hikmat Hajiyev, Ilham Aliyev) and defining metrics for each article. Please see respective codes for more details. Once all compared, top 5 relevant news from both conflicting sides are selected and going to be displayed on the front-end of our extension. 
+
+### RUST Optimization
+
+### Back-end
+
+## Front-end
