@@ -7,7 +7,7 @@ The information war is always a consistent part of any military conflict. As we 
 - Compares the current news article to all the news in the database. Considering II Karabakh War, in particular, we extracted 3000+ news from the top 7 Azerbaijani and Armenian portals. So the data is available and stored in the database. We perform K-Means Clustering (Machine Learning) of news articles in order to cluster them by topics and then, we run a relevance test between a current news article and all the news in the database (optimized for computational efficiency by using RUST programming language). The goal here is to show only those news relevant to the one you're reading on the international website (as you can also see from the image below).
 - Something similar to the image below is the final appearance of our extension.
 
-![NoBias](C:\Users\tahir\Desktop\NoBias.png)
+![NoBias](NoBias.png)
 
 Only this way, we will be able to eliminate any bias and stop propaganda. For this hackathon, our target audience is international newsreaders. Our goal is to bring justice to the world via our product.
 
