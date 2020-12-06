@@ -12,11 +12,8 @@ Fast computation is the key in our product. Obviously, we can't ask a user to wa
 
 ### Step 3: (Front-end) Demo
 
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="BiasBreaker logo.png">
-    <source src="AzOps-Fables-BiasBlocker-FULL DEMO.mp4" type="video/mp4">
-  </video>
-</figure>
+Please see "AzOps-Fables-BiasBlocker-FULL DEMO.mp4" video.
 
 ### Business Plan
 
+Please see "BiasBlocker Business Plan.pdf" file.
